@@ -57,6 +57,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             try reproductor = AVAudioPlayer(contentsOfURL: sonidoUrl!)
             tituloCancion.text = arregloCanciones[row].titulo
             fotoCancion.image = UIImage(named: arregloCanciones[row].nombreFoto)
+            reproducirMusica()
             
         } catch {
             print( "Error al reproducir el sonido" )
@@ -65,10 +66,14 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
   
     
-    @IBAction func play(sender: UIButton) {
+    func reproducirMusica() {
         if !reproductor.playing {
             reproductor.play()
         }
+    }
+    
+    @IBAction func play(sender: UIButton) {
+        reproducirMusica()
     }
     
     @IBAction func pause(sender: UIButton) {
