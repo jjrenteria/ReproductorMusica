@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69A011A71CF3CAA3009AF0BB /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A011A61CF3CAA3009AF0BB /* Cancion.swift */; };
+		69A011A91CF3D1A4009AF0BB /* LINKINPARK.png in Resources */ = {isa = PBXBuildFile; fileRef = 69A011A81CF3D1A4009AF0BB /* LINKINPARK.png */; };
+		69A011AB1CF3D1B4009AF0BB /* BEATLES.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A011AA1CF3D1B4009AF0BB /* BEATLES.jpg */; };
+		69A011AD1CF3D1C8009AF0BB /* ELVIS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A011AC1CF3D1C8009AF0BB /* ELVIS.jpg */; };
+		69A011AF1CF3D1D0009AF0BB /* aerosmith-cryin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 69A011AE1CF3D1D0009AF0BB /* aerosmith-cryin.jpeg */; };
+		69A011B11CF3D206009AF0BB /* RickSpringfieldHQ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A011B01CF3D206009AF0BB /* RickSpringfieldHQ.jpg */; };
+		69A011B31CF3D22B009AF0BB /* aerosmith-cryin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69A011B21CF3D22B009AF0BB /* aerosmith-cryin.mp3 */; };
+		69A011B81CF3D277009AF0BB /* BEATLES.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69A011B41CF3D277009AF0BB /* BEATLES.mp3 */; };
+		69A011B91CF3D277009AF0BB /* ELVIS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69A011B51CF3D277009AF0BB /* ELVIS.mp3 */; };
+		69A011BA1CF3D277009AF0BB /* LINKINPARK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69A011B61CF3D277009AF0BB /* LINKINPARK.mp3 */; };
+		69A011BB1CF3D277009AF0BB /* RickSpringfieldHQ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69A011B71CF3D277009AF0BB /* RickSpringfieldHQ.mp3 */; };
 		69BE8DD41CEA793600EDC44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE8DD31CEA793600EDC44D /* AppDelegate.swift */; };
 		69BE8DD61CEA793600EDC44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE8DD51CEA793600EDC44D /* ViewController.swift */; };
 		69BE8DD91CEA793600EDC44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BE8DD71CEA793600EDC44D /* Main.storyboard */; };
@@ -15,6 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69A011A61CF3CAA3009AF0BB /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+		69A011A81CF3D1A4009AF0BB /* LINKINPARK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LINKINPARK.png; sourceTree = "<group>"; };
+		69A011AA1CF3D1B4009AF0BB /* BEATLES.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BEATLES.jpg; sourceTree = "<group>"; };
+		69A011AC1CF3D1C8009AF0BB /* ELVIS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ELVIS.jpg; sourceTree = "<group>"; };
+		69A011AE1CF3D1D0009AF0BB /* aerosmith-cryin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aerosmith-cryin.jpeg"; sourceTree = "<group>"; };
+		69A011B01CF3D206009AF0BB /* RickSpringfieldHQ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RickSpringfieldHQ.jpg; sourceTree = "<group>"; };
+		69A011B21CF3D22B009AF0BB /* aerosmith-cryin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aerosmith-cryin.mp3"; sourceTree = "<group>"; };
+		69A011B41CF3D277009AF0BB /* BEATLES.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BEATLES.mp3; sourceTree = "<group>"; };
+		69A011B51CF3D277009AF0BB /* ELVIS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ELVIS.mp3; sourceTree = "<group>"; };
+		69A011B61CF3D277009AF0BB /* LINKINPARK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LINKINPARK.mp3; sourceTree = "<group>"; };
+		69A011B71CF3D277009AF0BB /* RickSpringfieldHQ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RickSpringfieldHQ.mp3; sourceTree = "<group>"; };
 		69BE8DD01CEA793600EDC44D /* Musica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BE8DD31CEA793600EDC44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69BE8DD51CEA793600EDC44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6925523A1CF3BC4E001490C9 /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				69A011B41CF3D277009AF0BB /* BEATLES.mp3 */,
+				69A011B51CF3D277009AF0BB /* ELVIS.mp3 */,
+				69A011B61CF3D277009AF0BB /* LINKINPARK.mp3 */,
+				69A011B71CF3D277009AF0BB /* RickSpringfieldHQ.mp3 */,
+				69A011AA1CF3D1B4009AF0BB /* BEATLES.jpg */,
+				69A011A81CF3D1A4009AF0BB /* LINKINPARK.png */,
+				69A011B21CF3D22B009AF0BB /* aerosmith-cryin.mp3 */,
+				69A011AE1CF3D1D0009AF0BB /* aerosmith-cryin.jpeg */,
+				69A011AC1CF3D1C8009AF0BB /* ELVIS.jpg */,
+				69A011B01CF3D206009AF0BB /* RickSpringfieldHQ.jpg */,
+			);
+			name = Sonidos;
+			sourceTree = "<group>";
+		};
 		69BE8DC71CEA793600EDC44D = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +93,14 @@
 		69BE8DD21CEA793600EDC44D /* Musica */ = {
 			isa = PBXGroup;
 			children = (
+				6925523A1CF3BC4E001490C9 /* Sonidos */,
 				69BE8DD31CEA793600EDC44D /* AppDelegate.swift */,
 				69BE8DD51CEA793600EDC44D /* ViewController.swift */,
 				69BE8DD71CEA793600EDC44D /* Main.storyboard */,
 				69BE8DDA1CEA793600EDC44D /* Assets.xcassets */,
 				69BE8DDC1CEA793600EDC44D /* LaunchScreen.storyboard */,
 				69BE8DDF1CEA793600EDC44D /* Info.plist */,
+				69A011A61CF3CAA3009AF0BB /* Cancion.swift */,
 			);
 			path = Musica;
 			sourceTree = "<group>";
@@ -122,9 +163,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A011AF1CF3D1D0009AF0BB /* aerosmith-cryin.jpeg in Resources */,
+				69A011A91CF3D1A4009AF0BB /* LINKINPARK.png in Resources */,
+				69A011B31CF3D22B009AF0BB /* aerosmith-cryin.mp3 in Resources */,
+				69A011B81CF3D277009AF0BB /* BEATLES.mp3 in Resources */,
+				69A011AD1CF3D1C8009AF0BB /* ELVIS.jpg in Resources */,
 				69BE8DDE1CEA793600EDC44D /* LaunchScreen.storyboard in Resources */,
 				69BE8DDB1CEA793600EDC44D /* Assets.xcassets in Resources */,
+				69A011AB1CF3D1B4009AF0BB /* BEATLES.jpg in Resources */,
+				69A011B11CF3D206009AF0BB /* RickSpringfieldHQ.jpg in Resources */,
+				69A011B91CF3D277009AF0BB /* ELVIS.mp3 in Resources */,
 				69BE8DD91CEA793600EDC44D /* Main.storyboard in Resources */,
+				69A011BB1CF3D277009AF0BB /* RickSpringfieldHQ.mp3 in Resources */,
+				69A011BA1CF3D277009AF0BB /* LINKINPARK.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A011A71CF3CAA3009AF0BB /* Cancion.swift in Sources */,
 				69BE8DD61CEA793600EDC44D /* ViewController.swift in Sources */,
 				69BE8DD41CEA793600EDC44D /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +338,7 @@
 				69BE8DE41CEA793600EDC44D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
